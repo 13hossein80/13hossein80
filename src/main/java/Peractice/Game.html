@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wicket="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+
+    <style type="text/css" style="font-size: large;font-weight: 100";>
+        label {
+            color: blue;
+            font-weight: bolder;
+            font-family: cursive;
+        }
+
+        body {
+            margin-left: 851px;
+            width: 178px;
+        }
+    </style>
+</head>
+<body>
+<form wicket:id="form">
+
+    <div>
+        <div>
+            <label for="firstName" style="margin-left: 27%;">First Name</label>
+            <input wicket:id="firstNameInput" type="text" id="firstName">
+        </div>
+        <div>
+            <label for="lastName" style="margin-left: 28%;">Last Name</label>
+            <input wicket:id="lastNameInput" type="text" id="lastName">
+        </div>
+        <div>
+            <label for="age" style="margin-left: 41%;">Age</label>
+            <input wicket:id="ageInput" type="text" id="age">
+        </div>
+        <div>
+            <label for="country" style="margin-left: 34%;">Country</label>
+            <input wicket:id="countryInput" type="text" id="country">
+        </div>
+        <div>
+            <label for="city" style="margin-left: 41%;">City</label>
+            <input wicket:id="cityInput" type="text" id="city">
+        </div>
+        <div>
+            <input wicket:id="submit" type="submit" value="Log in"/>
+        </div>
+        <div>
+            <input wicket:id="submit2" type="submit" value="go home page">
+        </div>
+        <div>
+            <label wicket:id="messageLabel"></label>
+        </div>
+
+    </div>
+
+</form>
+</body>
+</html>
