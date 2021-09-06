@@ -47,7 +47,6 @@ public class HomePage extends WebPage {
                 StandardServiceRegistry serviceRegistry;
 
                 Configuration configuration = new Configuration();
-
                 configuration.configure();
 
                 serviceRegistry = new StandardServiceRegistryBuilder().applySettings(
